@@ -1,0 +1,37 @@
+.main_container {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+}
+.nav {
+    background-color: white;
+    width: 200px;
+    height: 800px;
+    display: inline-block;
+       
+}
+.active {
+    background-color: rgb(248, 120, 65);
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .bg-body-tertiary {
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    
+.col {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 30px;
+   
+}
+.col2 {
+    width: 700px;
+    height: 510px;
+    background-color: white;
+    margin: 30px;
+       
+}

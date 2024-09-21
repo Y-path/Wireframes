@@ -1,0 +1,33 @@
+#main_container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
+.card {
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 30%;
+    height: 450px;
+}
+
+.table {
+    width: 70%;
+    margin:12px;
+    height: 110px; 
+}
+
+.table-striped {
+    width: 290px;
+    margin: 12px;
+    order: -3;
+    align-self: flex-end;
+}
+
+.progress {
+    margin-top: 5px;
+    margin-right: 12px;
+    max-width: 70%;  
+}
